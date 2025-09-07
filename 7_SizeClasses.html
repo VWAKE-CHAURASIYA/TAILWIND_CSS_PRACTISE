@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="output.css">
+    <title>Size Classes in Tailwind</title>
+</head>
+<body>
+    <div>
+        <div class="h-100 w-100 bg-cyan-800 text-white">Size classes are used to provide the height and width simultaneously.</div>
+        <br>
+        <div class="size-100 bg-yellow-300 text-black">Size classes are used to provide the height and width simultaneously.</div>
+        <div class="size-50 bg-pink-300 text-black">Size classes are used to provide the height and width simultaneously.</div>
+
+        <!-- custom height: -->
+        <div class="size-[300px] bg-red-700 text-white">Size classes are used to provide the height and width simultaneously.</div>
+        
+        <!-- min-heigth and max height: Not possible  -->
+        <div class="min-size-300   size-150 bg-green-700 text-white">min-Size classes are not applied to size classes, it only used with widtha dn height </div>
+        <div class="max-size-500   size-150 bg-green-900 text-white">min-Size classes are not applied to size classes, it only used with widtha dn height </div>
+
+
+        <div class="h-screen">
+            <!-- <div class="size-full bg-pink-300 text-white text-xl italic">If we have to apply in percentage, then we have to set its parent using h-screen class</div> -->
+            <div class="size-fit bg-pink-600 text-white text-xl italic hover:size-1/2">If we have to apply in percentage, then we have to set its parent using h-screen class</div>
+        </div>
+      
+
+    </div>
+</body>
+</html>

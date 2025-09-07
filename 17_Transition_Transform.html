@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="output.css">
+    <title>Transition and Transform</title>
+</head>
+
+<body>
+    <!-- !The transition property allows you to make smooth animations when a CSS property changes value over time. { transition: property,  duration,  timing-function,  delay};-->
+
+    <!--! The transform property allows you to apply 2D or 3D transformations to elements — like rotate, scale, translate, or skew. -->
+
+    <button class="bg-red-400 m-10 p-3 text-white rounded hover:bg-red-800 cursor-pointer">Button 1</button>
+    
+    <!-- Now adding transistion:  -->
+<button class="bg-red-400 m-10 p-3 text-white rounded hover:bg-red-800 cursor-pointer duration-1000 ">Button 2</button>
+
+<!-- opacity -->
+<button class="bg-red-400 m-10 p-3 text-white rounded hover:opacity-5 cursor-pointer duration-1000 ">Button 3</button>
+
+<!-- rotation with transtion:  -->
+<button class="bg-red-400 m-10 p-3 text-white rounded hover:rotate-180 duration-1000 transition-transform ">Button 4</button>
+
+<!-- scale change:  -->
+<button class="bg-red-400 m-10 p-3 text-white rounded hover:scale-150  cursor-pointer transition-transform duration-1000 ">Button 5</button>
+
+
+<button class="bg-red-400 m-10 p-3 text-white rounded hover:scale-x-150  cursor-pointer transition-transform duration-1000 ">Button 6</button>
+<button class="bg-red-400 m-10 p-3 text-white rounded hover:scale-y-150   cursor-pointer transition-transform duration-1000 ">Button 7</button>
+
+<!-- transition on images:-->
+
+<img src="funny_lion.jpeg" alt="" class="rounded-2xl m-auto hover:rotate-360 hover:scale-110 transition-transform  duration-1000 cursor-pointer ">
+
+</body>
+
+</html>

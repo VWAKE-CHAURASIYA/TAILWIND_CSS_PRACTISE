@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="output.css">
+    <title>Width, Min-width, Max-Width</title>
+</head>
+<body>
+    <div>
+        <h1>Width</h1>
+        <p class="w-dvw bg-amber-300 text-xl">width is a property in css, that defines the size horizontally.</p>
+        <p class="w-full bg-sky-300 text-xl ">width is a property in css, that defines the size horizontally.</p>
+    </div>
+    <div class="w-50 bg-amber-400">
+        <p class="w-full bg-pink-300">w-full sets the element’s width to 100% of its parent,</p>
+    </div>
+    <div>
+        <p class="w-dvw bg-fuchsia-700"> while w-screen (100vw) sets it to 100% of the viewport width.</p>
+    </div>
+
+    <div>
+        <h1>Min-width and Max-width</h1>
+        <p class="bg-green-500 p-2 text-white w-20 min-w-80 ">Min-width are applied on the top basic, doen't matter how much width we have provided</p>
+        <p class="bg-purple-800 p-2 text-white w-50 max-w-80">Max-width are not applied on the top basis, if there is any extra width less than that than first it will be apply then it reaches to max-width</p>
+        <p class="bg-neutral-200 p-2 w-fit">w-fit are used to fit the width as per the content sizes, it is completely based on the size of cntent width.</p>
+    </div>
+
+    <div>
+        <h1>Width in Percentages</h1>
+        <p class="p-2 w-1/2">We can also define the width in percentages</p>
+        <p class="p-2 w-1/3">We can also define the width in percentages</p>
+        <p class="p-2 w-2/3">We can also define the width in percentages</p>
+        <p class="p-2 w-1/5">We can also define the width in percentages</p>
+        <p class="p-2 w-3/4">We can also define the width in percentages</p>
+    </div>
+
+    <div>
+        <h1>Custom width size using aribitrary values</h1>
+        <p class="m-2 w-[300px] bg-amber-500">This is the way , where we can provide our cusotom width, using arbitrary values.</p>
+    </div>
+
+    <div>
+        <h1>Width with Hover</h1>
+        <p class="bg-pink-400 m-2 p-2 w-1/3 hover:w-1/2 hover:bg-purple-500 ">w-auto makes width depend on the parent/container, while 🔹 w-fit makes width depend on the content size only.</p>
+    </div>
+
+</body>
+</html>

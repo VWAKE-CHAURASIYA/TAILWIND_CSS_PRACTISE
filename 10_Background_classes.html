@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="output.css">
+    <title>Background Classes In Tailwind</title>
+</head>
+<body>
+    <!-- Background- Add background image -->
+     <!-- 1st way:  -->
+
+      <!-- <div class="bg-amber-700 size-200" style="background-image: url(funny_lion.jpeg);">This is my smart lion</div> -->
+
+      <!-- 2nd way:  -->
+      <div class="bg-amber-700 h-100 bg-[url(funny_lion.jpeg)] bg-no-repeat bg-center ">
+       This is my smart lion
+      </div>
+
+      <!-- How to use gradient:  -->
+       <div class="gradient bg-gradient-to-b to-green-500 from-yellow-400 size-96 "></div>
+       <div class="gradient bg-gradient-to-r from-red-800 to-pink-400 size-96 "></div>
+       <div class="gradient bg-gradient-to-br from-orange-900 to-blue-400  size-96 "></div>
+
+       <!-- How to apply shodow: -->
+       <div class="size-96 shadow-red-800 shadow-2xl m-50"></div>
+       
+       <!-- How to apply inner shodow: -->
+        <div class="size-96 shadow-red-800 shadow-inner m-50"></div>
+</body>
+</html>

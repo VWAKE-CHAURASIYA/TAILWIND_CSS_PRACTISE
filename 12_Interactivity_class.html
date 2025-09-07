@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="output.css">
+    <title>Interactivity classes in Tailwind</title>
+</head>
+<body>
+     <h1>Here we learn LVHA- Link, Visited, Hover, Active Pseudo-classes</h1>
+    <button class="m-2 p-3 border-2 border-black rounded-xl text-white bg-blue-400 hover:scale-75 ">Hover</button>
+    <button class="m-2 p-3 border-2 border-black rounded-xl text-white bg-blue-400 visited:bg-yellow-400">Hover</button>
+    <button class="m-2 p-3 border-2 border-black rounded-xl text-white bg-blue-400  focus:bg-red-400 ">Hover</button>
+    <button class="m-2 p-3 border-2 border-black rounded-xl text-white bg-blue-400  active:bg-green-800">Hover</button>
+ <br>
+    
+ <!-- Mix of all  -->
+    <button class="m-2 p-3 border-2 border-black rounded-xl text-white bg-blue-400 hover:w-1/4  hover:bg-pink-600 active:bg-green-800 focus:bg-fuchsia-600">Hover</button>
+
+    <!-- Group Hover:  -->
+
+    <div class="group">
+        <button class="m-3 p-3 w-1/5 border-3 rounded text-white bg-black  group-hover:bg-green-700 group-hover:text-red-900">Group Hover</button>
+        <p class=" group-hover:bg-green-700 group-hover:text-red-900">Group hover are used to provide hover to a multiple element of html, by providing group class to parent.</p>
+    </div>
+
+    <!-- !Differnce between focus and active  -->
+</body>
+</html>
