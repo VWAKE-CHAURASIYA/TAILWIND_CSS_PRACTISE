@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="output.css">
+    <title>Directives</title>
+</head>
+
+<body>
+    <!--! Directive is known as At-rules in Pure Css  -->
+
+    <!--Tailwind CSS directives are special at-rules used within CSS files to integrate Tailwind's functionality and manage its styles. They provide a way to inject Tailwind's core styles, apply utility classes within CSS, and define custom layers for organization.
+The main Tailwind directives are:
+@tailwind:
+This directive is used to inject Tailwind's base styles, component styles, and utility styles into your CSS. It typically includes:
+@tailwind base; (for base styles like resets)
+@tailwind components; (for pre-built components if used)
+@tailwind utilities; (for all of Tailwind's utility classes) 
+
+@apply:
+This directive allows you to apply multiple Tailwind utility classes to a single custom CSS class. This is useful for creating reusable components and extracting common patterns without writing repetitive utility classes in your HTML.
+Code
+
+    .btn-primary {
+      @apply bg-blue-500 text-white font-bold py-2 px-4 rounded;
+    }
+@layer: This directive helps organize your CSS by explicitly defining where your custom styles, components, or utilities should reside within Tailwind's layer system. This ensures proper style precedence and avoids specificity issues.
+Code
+
+    @layer components {
+      .card {
+        /* Custom card styles */
+      }
+    }
+@variants: (Primarily in older versions or for advanced use cases) This directive allows you to generate responsive, hover, focus, and other variants for your own custom utility classes.
+These directives are fundamental to how Tailwind CSS works, enabling efficient styling and organization within your projects.-->
+
+
+</body>
+
+</html>
