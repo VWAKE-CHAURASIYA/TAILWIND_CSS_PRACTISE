@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="output.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Dropdown in Tailwidn css without js</title>
+</head>
+
+<body>
+    <div class="group m-20">
+        <div class="flex gap-3 border-black w-fit border-2 p-2 rounded-2xl cursor-pointer text-blue-500 hover:text-blue-950">
+            <h1>Select Your city</h1>
+            <i class="fa-solid fa-caret-down"></i>
+        </div>
+        <!-- Now here we need to show the cities which only be visible whie hovering;  -->
+        <div class="hidden ml-10 group-hover:block w-fit">
+            <ul>
+                <li><a href="#">New Delhi</a></li>
+                <li><a href="#">Varanasi</a></li>
+                <li><a href="#">Banglore</a></li>
+                <li><a href="#">Hyderabad</a></li>
+                <li><a href="#">Pune</a></li>
+                <li><a href="#">Mumbai</a></li>
+            </ul>
+        </div>
+    </div>
+
+</body>
+
+</html>

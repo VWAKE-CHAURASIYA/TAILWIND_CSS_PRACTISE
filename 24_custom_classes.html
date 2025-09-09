@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="output.css">
+    <title>Custom Class</title>
+</head>
+<body>
+    <!-- In tailwind we have predefined classes, but if we want to make our own custom classes then we use @layer directives with component identifier, on our main input.css file. It is used to includes multiples styles that can be used for multimes times in our webpage -->
+     <button class="m-10 p-3 border rounded-xl text-white bg-blue-400 hover:bg-blue-900 cursor-pointer hover:scale-x-175 duration-100 transition ">Button 1</button>
+     <button class="btn-style">Button 2</button>
+     <div class="p-style">All the styles must be used inside the layer directive, otherwise if it will be ouside some property will not work properly, like performing with hover. </div>
+</body>
+</html>
